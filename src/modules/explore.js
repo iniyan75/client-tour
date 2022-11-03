@@ -206,7 +206,7 @@ export default function Explore(props) {
 
                             }}>
                                 <div className='content'>
-                                <Link className="button-92" to={`/hotels/${id}`}>see hotels</Link>
+                                <Link className="button-92" to={`/hotel/${id}`}>see hotels</Link>
                                     
 
                                 </div>
