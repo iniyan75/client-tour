@@ -43,7 +43,7 @@ const Login = () => {
         
             <div className="login">
                 <div style={{borderRadius:'25px', opacity: '0.9',width:"50%",marginLeft:'22%'}}  className="p-4 box">
-                    <h2 className="mb-3" style={{color:"white"}}>Login to Explore</h2>
+                    <h2 className="mb-3" style={{color:"Black"}}>Login to Explore</h2>
                     {error && <Alert variant="danger">{error}</Alert>}
                     <Form onSubmit={handleSubmit}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
