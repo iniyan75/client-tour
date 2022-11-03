@@ -17,7 +17,7 @@ export default function Explore(props) {
     const [wait, waitset] = useState(false)
     const [data, setdata] = React.useState()
     const getData = async () => {
-        const res = await axios.get(`https://tourweb-75.herokuapp.com/${id}`)
+        const res = await axios.get(`https://tourweb-75.herokuapp.com/places/${id}`)
 
         setdata(res.data)
 
