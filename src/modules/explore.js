@@ -17,7 +17,7 @@ export default function Explore(props) {
     const [wait, waitset] = useState(false)
     const [data, setdata] = React.useState()
     const getData = async () => {
-        const res = await axios.get(`https://tourweb-75.herokuapp.com//${id}`)
+        const res = await axios.get(`https://tourweb-75.herokuapp.com/${id}`)
 
         setdata(res.data)
 
@@ -62,7 +62,7 @@ export default function Explore(props) {
             review: input.review
 
         }
-        axios.post(`https://tourweb-75.herokuapp.com//mainplaces/${id}`, (newtour))
+        axios.post(`https://tourweb-75.herokuapp.com/mainplaces/${id}`, (newtour))
     }
     const { logOut, user } = useUserAuth();
 
