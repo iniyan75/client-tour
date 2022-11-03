@@ -11,7 +11,7 @@ const Hero = () => {
     const [data, setdata] = useState([])
     useEffect(() => {
         const fetchplaces = async () => {
-            const res = await axios.get(`https://tourweb-75.herokuapp.com//places`)
+            const res = await axios.get(`https://tourweb-75.herokuapp.com/places`)
             setdata(res.data)
         }
         fetchplaces()
