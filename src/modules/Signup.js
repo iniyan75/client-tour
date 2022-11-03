@@ -26,7 +26,7 @@ const Signup = () => {
     <>
     <div className="login">
       <div style={{borderRadius:'25px', opacity: '0.8',width:"50%",marginLeft:'22%'}} className="p-4 box">
-        <h2 className="mb-3"> Signup</h2>
+        <h2 style={{color:"black"}} className="mb-3"> Signup</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -52,7 +52,7 @@ const Signup = () => {
           </div>
         </Form>
       </div>
-      <div style={{borderRadius:'25px',opacity: '0.8',width:"50%",marginLeft:'22%'}} className="p-4 box mt-3 text-center">
+      <div style={{borderRadius:'25px',color:"black",opacity: '0.8',width:"50%",marginLeft:'22%'}} className="p-4 box mt-3 text-center">
         Already have an account? <Link to="/">Log In</Link>
       </div>
       </div>
