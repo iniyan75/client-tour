@@ -13,7 +13,7 @@ const Layout = () => {
 
     return (
         <div>
-            <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-secondary">
+            <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-primary">
                 <div class="container">
                     <a class="navbar-brand" href="#">Let's Explore</a>
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
