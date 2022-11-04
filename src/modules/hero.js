@@ -25,7 +25,7 @@ const Hero = () => {
         <div >
             <div className='hero'>
                 <div className='content'>
-                    <h1 class="display-3">Find the perfect place</h1>
+                    <h1 class="display-3">Search your dream destination</h1>
                     <p className='search-text'> Search the perfect place for your vacation and view the reviews of previous visitors. </p>
                     <div className='search'>
 
@@ -41,7 +41,7 @@ const Hero = () => {
 
                     </div>
                     <div style={{marginTop:'5%'}}>
-                            <button className="button-92"> <a class="nav-link" href="#destinations"> See Top Destinations</a></button>
+                            <button className="button-92"> <a class="nav-link" href="#destinations">Famous Destinations</a></button>
                        
 
                         </div>
