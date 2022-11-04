@@ -7,7 +7,7 @@ export default function Destinations() {
 		<div>
 			<section class="dark">
 				<div class="container py-4">
-					<h1 class="h1 text-center" style={{ color: 'white' }} id="pageHeaderTitle">Top Destinations</h1>
+					<h1 class="h1 text-center" style={{ color: 'white' }} id="pageHeaderTitle">Famous Destinations</h1>
 
 					<article class="postcard dark blue">
 						<a class="postcard__img_link" href="#">
