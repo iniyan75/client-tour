@@ -21,6 +21,7 @@ const Login = () => {
              alert("LOGGED IN SUCCESSFULLY")
             
              navigate("/")
+            window.location.reload()
 
              
             
