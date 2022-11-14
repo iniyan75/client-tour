@@ -22,15 +22,15 @@ const Layout = () => {
                     <div class="collapse navbar-collapse" id="navbar1">
                         <ul class="navbar-nav w-100">
                             <li class="nav-item active">
-                                <Link class="nav-link" to="/">Home</Link>
+                                <Link class="nav-link active" to="/">Home</Link>
                             </li>
 
 
                             <li>
-                                <a class="nav-link  ms-auto" href="#about">about</a>
+                                <a class="nav-link active  ms-auto" href="#about">about</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">contact</a>
+                                <a class="nav-link active" href="#contact">contact</a>
                             </li>
 
                         </ul>
