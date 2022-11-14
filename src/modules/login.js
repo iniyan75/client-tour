@@ -17,7 +17,7 @@ const Login = () => {
         setError("");
         try {
             localStorage.setItem("password",password)
-           
+           window.location.reload()
              alert("LOGGED IN SUCCESSFULLY")
             
              navigate("/")
