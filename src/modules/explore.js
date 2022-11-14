@@ -56,6 +56,7 @@ export default function Explore(props) {
     function handleClick(event) {
         event.preventDefault();
         alert("submitted");
+        window.location.reload();
         const newtour = {
 
             uname: input.uname,
